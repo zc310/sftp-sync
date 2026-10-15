@@ -1,0 +1,12 @@
+{
+  "local_dir": "./public",
+  "remote_dir": "/var/www/blog",
+  "database": "./data/hashes.db",
+  "address": "example.com:22",
+  "username": "deploy",
+  "private_key": "./id_ed25519",
+  "ignore": [
+    ".git/**",
+    "*.tmp"
+  ]
+}
